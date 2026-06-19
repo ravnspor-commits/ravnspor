@@ -1,67 +1,52 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Udlejning | RavnSpor</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Udlejning | RavnSpor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.package-price{font-size:2rem;color:#213d32;font-weight:700;margin:.5rem 0}
+.addons{max-width:1120px;margin:2rem auto;padding:0 1rem}
+.addons .card{text-align:left}
+.addons label{display:block;padding:.5rem 0}
+.terms-link{text-align:center;padding:2rem}
+</style>
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav" aria-label="Hovednavigation">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" aria-hidden="true">
-        <img src="assets/ravnspor-logo.png" alt="">
-      </span>
-      <span>RavnSpor</span>
-    </a>
-    <ul>
-      <li><a href="index.html">Forside</a></li>
-      <li><a href="udlejning.html" aria-current="page">Udlejning</a></li>
-      <li><a href="ruteplaner.html">Ruteplaner</a></li>
-      <li><a href="om-os.html">Om os</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
-  </nav>
-</header>
+<header class="site-header"><nav class="nav"><a class="brand" href="index.html"><span class="brand-mark"><img src="assets/ravnspor-logo.png" alt=""></span><span>RavnSpor</span></a>
+<ul><li><a href="index.html">Forside</a></li><li><a href="udlejning.html" aria-current="page">Udlejning</a></li><li><a href="ruteplaner.html">Ruteplaner</a></li><li><a href="om-os.html">Om os</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></nav></header>
 
 <main class="subpage">
-  <section class="page-hero">
-    <p class="eyebrow">Grej til turen</p>
-    <h1>Lej solidt outdoorudstyr uden at fylde loftet.</h1>
-    <p>Vælg en enkel pakke til weekendtur, familieeventyr eller en længere rute med mere krævende terræn.</p>
-  </section>
+<section class="page-hero">
+<p class="eyebrow">Udlejning</p>
+<h1>Lej udstyr til dit næste eventyr</h1>
+<p>Fleksible pakkeløsninger inspireret af nordisk mytologi til shelterture og længere ekspeditioner.</p>
+</section>
 
-  <section class="cards price-grid" aria-label="Udstyrspakker">
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">ᛒ</span>
-      <h2>Basecamp</h2>
-      <p>Telt, liggeunderlag og sovepose til rolige overnatninger tæt på naturen.</p>
-    </article>
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">ᛟ</span>
-      <h2>Vandrer</h2>
-      <p>Rygsæk, regnslag, kogegrej og letvægtsudstyr til flere dage på stien.</p>
-    </article>
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">ᛋ</span>
-      <h2>Familietur</h2>
-      <p>Praktisk grej til børn og voksne med fokus på komfort, sikkerhed og overblik.</p>
-    </article>
-  </section>
+<section class="cards price-grid">
+<article class="card"><span class="card-icon">ᛒ</span><h2>Skjold – Basis</h2><div class="package-price">299 kr.</div><p>Sovepose og liggeunderlag.</p><br><a class="btn btn-primary" href="mailto:kontakt@ravnspor.dk">Bestil</a></article>
+<article class="card"><span class="card-icon">ᛟ</span><h2>'Ravnekald – Vandring'</h2><div class="package-price">599 kr.</div><p>Basis + rygsæk, kogegrej og regnslag.</p><br><a class="btn btn-primary" href="mailto:kontakt@ravnspor.dk">Bestil</a></article>
+<article class="card"><span class="card-icon">ᛋ</span><h2>Odinspor – Ekspedition</h2><div class="package-price">999 kr.</div><p>Komplet udstyrspakke til længere ture.</p><br><a class="btn btn-primary" href="mailto:kontakt@ravnspor.dk">Bestil</a></article>
+<article class="card"><span class="card-icon">ᛋ</span><h2>Skrædersyet</h2><div class="package-price">Pris aftales</div><p>Lad os tage en snak om det, se hvad du skal bruge</p><br><a class="btn btn-primary" href="kontakt.html">Bestil</a></article>
+</section>
+
+<section class="addons">
+<div class="card">
+<h2>Tilkøb</h2>
+<label> Personlig ruteplanlægning (+99 kr.)</label>
+<label> Telefonisk gennemgang af rute (+99 kr.)</label>
+<label> Førstehjælpspakke (+79 kr.)</label>
+</div>
+</section>x
+
+<div class="terms-link">
+<a href="udleje-vilkaar.html">Se udlejningsvilkår</a>
+</div>
 </main>
 
-<footer class="site-footer">
-  <a class="footer-brand" href="index.html">
-    <img src="assets/ravnspor-logo.png" alt="">
-    <span>RavnSpor</span>
-  </a>
-  <p>Nordisk friluftsliv, ruter og udstyr til ture i naturen.</p>
-</footer>
-
-<script src="js/main.js"></script>
-</body>
-</html>
+<footer class="site-footer"><a class="footer-brand" href="index.html"><img src="assets/ravnspor-logo.png" alt=""><span>RavnSpor</span></a></footer>
+</body></html>
